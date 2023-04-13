@@ -6,4 +6,10 @@ export class PrismaService extends PrismaClient, implements OnModuleInit, OnModu
     constructor() {
         super();
     }
+    onModuleInit() {
+        
+    }
+    onModuleDestroy() {
+        
+    }
 }
